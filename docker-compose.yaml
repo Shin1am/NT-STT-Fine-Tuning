@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: ls-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=nt_admin
+      - POSTGRES_PASSWORD=password123
+      - POSTGRES_DB=label_studio_db
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  label-studio:
+    image: heartexlabs/label-studio:latest
+    container_name: ls-app
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_DB=default
+      - POSTGRE_NAME=label_studio_db
+      - POSTGRE_USER=nt_admin
+      - POSTGRE_PASSWORD=password123
+      - POSTGRE_PORT=5432
+      - POSTGRE_HOST=db
+      - LABEL_STUDIO_SECRET_KEY=nt_workshop_2026
+    volumes:
+      - ./mydata:/label-studio/data
