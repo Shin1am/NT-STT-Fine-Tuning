@@ -1,0 +1,6 @@
+# Ignore everything inside these folders
+mydata/
+postgres_data/
+
+# Also ignore any auto-generated .env files
+.env
