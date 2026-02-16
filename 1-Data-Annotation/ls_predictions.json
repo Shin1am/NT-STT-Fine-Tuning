@@ -1,7 +1,7 @@
 [
     {
         "data": {
-            "audio": "/data/local-files/?d=dataset1/Example1.mp3"
+            "audio": "/data/local-files/?d=files/Example1.mp3"
         },
         "predictions": [
             {
