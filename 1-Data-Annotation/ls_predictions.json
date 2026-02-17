@@ -1,1125 +1,941 @@
 [
     {
         "data": {
-            "audio": "/data/local-files/?d=files/Example1.mp3"
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_0.wav"
         },
         "predictions": [
             {
                 "model_version": "VAD-Whisper-Thai-v1",
                 "result": [
                     {
-                        "id": "v_Example1.mp3_0",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 24.7,
-                            "end": 26.0,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_0",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 24.7,
-                            "end": 26.0,
                             "text": [
                                 "จริง ๆ ปีที่"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_1.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_1",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 26.1,
-                            "end": 30.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_1",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 26.1,
-                            "end": 30.2,
                             "text": [
                                 "ผ่านมาเนี่ยก็ถือว่าทรงตัวนะครับก็จะเติบโตขึ้นมานิดหน่อย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_2.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_2",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 30.4,
-                            "end": 31.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_2",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 30.4,
-                            "end": 31.3,
                             "text": [
                                 "ปีหน้าเนี่ย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_3.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_3",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 31.5,
-                            "end": 33.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_3",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 31.5,
-                            "end": 33.3,
                             "text": [
                                 "น่าจะดีขึ้นนะครับ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_4.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_4",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 33.4,
-                            "end": 36.9,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_4",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 33.4,
-                            "end": 36.9,
                             "text": [
                                 "เนื่องมาจากทางรัฐบาลมีโครงการส่งเสริม"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_5.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_5",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 37.1,
-                            "end": 45.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_5",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 37.1,
-                            "end": 45.4,
                             "text": [
                                 "สาธารณูปโภคหลาย ๆ อย่าง ไม่ว่าจะเป็น ECU หรือว่าจะเป็นรถไฟฟ้าหลาย ๆ สาย โดยเฉพาะอสังหาริมทรัพย์น่าจะเติบโตขึ้น"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_6.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_6",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 51.3,
-                            "end": 52.5,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_6",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 51.3,
-                            "end": 52.5,
                             "text": [
                                 "อย่างที่เห็นได้ชัดเลย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_7.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_7",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 52.7,
-                            "end": 54.0,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_7",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 52.7,
-                            "end": 54.0,
                             "text": [
                                 "เดี๋ยวนี้ผู้บริโภคเนี่ย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_8.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_8",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 54.3,
-                            "end": 60.8,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_8",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 54.3,
-                            "end": 60.8,
                             "text": [
                                 "มีความเป็นตัวเองสูง ดังนั้นเขาจะมองหาสิ่งที่แสดงออกความเป็นตัวตนของเขา"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_9.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_9",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 60.9,
-                            "end": 63.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_9",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 60.9,
-                            "end": 63.2,
                             "text": [
                                 "โดยที่เขาไม่อยากได้ของเหมือนคนอื่น"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_10.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_10",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 63.5,
-                            "end": 64.1,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_10",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 63.5,
-                            "end": 64.1,
                             "text": [
                                 "นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ นะครับ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_11.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_11",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 64.5,
-                            "end": 67.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_11",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 64.5,
-                            "end": 67.3,
                             "text": [
                                 "เทรนด์ที่ค่อนข้างชัด มันระสุนมาว่าน่าจะ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_12.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_12",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 67.5,
-                            "end": 72.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_12",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 67.5,
-                            "end": 72.4,
                             "text": [
                                 "เกี่ยวกับเลือก Customization ก็คือการลักษณะเฉพาะหรือเป็นเอกลักษณ์เฉพาะส่วนบุคคล"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_13.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_13",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 72.6,
-                            "end": 74.9,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_13",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 72.6,
-                            "end": 74.9,
                             "text": [
                                 "น่าจะตอบโจทย์ในอนาคต"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_14.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_14",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 81.2,
-                            "end": 90.7,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_14",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 81.2,
-                            "end": 90.7,
                             "text": [
                                 "เราได้คอมเมนต์จากลูกค้ามาตลอดว่า ทำไมเฟอร์นิเจอร์ไม่สามารถยื่นหดขนาดได้ บางทีเขาอยากจะได้เปลี่ยนแปลงตรงนี้นิดหน่อยเพื่อจะได้ฟิตกับ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_15.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_15",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 91.0,
-                            "end": 94.9,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_15",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 91.0,
-                            "end": 94.9,
                             "text": [
                                 "ฟังก์ชันการใช้งานของเขา ซึ่งมันก็เป็นที่มาของการที่เราคิดค้น"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_16.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_16",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 95.0,
-                            "end": 97.1,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_16",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 95.0,
-                            "end": 97.1,
                             "text": [
                                 "ตัว Unique Built-in 4.0 ขึ้นมา"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_17.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_17",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 103.1,
-                            "end": 110.0,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_17",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 103.1,
-                            "end": 110.0,
                             "text": [
                                 "ที่บอกว่า Unique พึ่งเปิดได้ประมาณ 3 เดือน แล้วเราก็ได้เปิดที่สาขาพระราม 2 ก่อนเพื่อ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_18.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_18",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 110.2,
-                            "end": 112.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_18",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 110.2,
-                            "end": 112.3,
                             "text": [
                                 "ปรับปรุงแล้วก็เพื่อสอบถาม"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_19.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_19",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 112.5,
-                            "end": 114.5,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_19",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 112.5,
-                            "end": 114.5,
                             "text": [
                                 "คล้าย ๆ กับว่า feedback ว่าลูกค้าเนี่ย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_20.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_20",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 114.7,
-                            "end": 120.6,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_20",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 114.7,
-                            "end": 120.6,
                             "text": [
                                 "ตอบรับกับยูนิคยังไง ซึ่งผลตอบรับออกมาค่อนข้างดี ดีมาก ปีหน้าเราก็คาดหวังว่าจะ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_21.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_21",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 120.8,
-                            "end": 125.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_21",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 120.8,
-                            "end": 125.2,
                             "text": [
                                 "ขยายไปได้ 12-15 สาขาครอบคลุมทั่วประเทศไทยนะครับ ดังนั้นก็จะ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_22.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_22",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 125.5,
-                            "end": 127.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_22",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 125.5,
-                            "end": 127.2,
                             "text": [
                                 "อันนี้ที่เรามองเป็นสเต็ปแรก"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_23.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_23",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 133.1,
-                            "end": 141.0,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_23",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 133.1,
-                            "end": 141.0,
                             "text": [
                                 "ก็อย่างที่บอกว่าเดี๋ยวนี้ผู้บริโภคเปลี่ยนแปลงเร็วมาก กระแสเทคโนโลจีหรือกระแสนวัตกรรมสมัยใหม่เข้ามาเสมอ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_24.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_24",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 141.1,
-                            "end": 142.9,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_24",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 141.1,
-                            "end": 142.9,
                             "text": [
                                 "ดังนั้นเราจะต้อง"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_25.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_25",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 143.2,
-                            "end": 145.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_25",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 143.2,
-                            "end": 145.3,
                             "text": [
                                 "ไม่ใช่แค่โฟกัสแค่จุดเดียวนะครับ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_26.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_26",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 145.4,
-                            "end": 147.1,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_26",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 145.4,
-                            "end": 147.1,
                             "text": [
                                 "เดี๋ยวนี้เราต้องมองรอบตัวว่า"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_27.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_27",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 147.7,
-                            "end": 148.3,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_27",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 147.7,
-                            "end": 148.3,
                             "text": [
                                 "เอ่อ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_28.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_28",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 148.4,
-                            "end": 155.0,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_28",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 148.4,
-                            "end": 155.0,
                             "text": [
                                 "อะไรที่จะสามารถกระทบกับธุรกิจดั้งเดิมของเราได้บ้าง แต่ก่อนเราอาจจะมองคู่แข่งแค่ 2-3 ราย 4-5 ราย"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_29.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_29",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 155.1,
-                            "end": 158.6,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_29",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 155.1,
-                            "end": 158.6,
                             "text": [
                                 "ที่เป็นคู่แข่งกันมาอย่างยาวนาน แต่เดี๋ยวนี้ผมว่าไม่ใช่"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_30.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_30",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 158.7,
-                            "end": 159.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_30",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 158.7,
-                            "end": 159.2,
                             "text": [
                                 "อ่า"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_31.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_31",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 159.4,
-                            "end": 163.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_31",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 159.4,
-                            "end": 163.4,
                             "text": [
                                 "บริษัทอีกบริษัทหนึ่งที่อาจจะไม่ได้อยู่ในธุรกิจเดียวกับคุณอาจจะเข้ามา"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_32.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_32",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 163.5,
-                            "end": 165.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_32",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 163.5,
-                            "end": 165.4,
                             "text": [
                                 "ธุรกิจเดี๋ยวคุณก็ได้แล้วก็"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_33.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_33",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 165.8,
-                            "end": 169.9,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_33",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 165.8,
-                            "end": 169.9,
                             "text": [
                                 "ดิสรัปตัวอินดัสทรีย์ทำให้"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_34.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_34",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 170.1,
-                            "end": 174.2,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_34",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 170.1,
-                            "end": 174.2,
                             "text": [
                                 "การค้าขายแบบดั้งเดิมถูกปรับเปลี่ยนไป ดังจะได้เห็นจากยกตัวอย่างที่"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_35.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_35",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 174.4,
-                            "end": 176.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_35",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 174.4,
-                            "end": 176.4,
                             "text": [
                                 "ที่หลาย ๆ เคสที่ทำให้"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_36.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_36",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 176.6,
-                            "end": 180.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_36",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 176.6,
-                            "end": 180.4,
                             "text": [
                                 "ธุรกิจเดิมหายไปอย่างรวดเร็ว ดังนั้นความท้าทายอย่างแรกคือเราจะต้อง"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_37.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_37",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 180.6,
-                            "end": 181.7,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_37",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 180.6,
-                            "end": 181.7,
                             "text": [
                                 "อัลเลิฟ"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_38.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_38",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 181.9,
-                            "end": 184.5,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_38",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 181.9,
-                            "end": 184.5,
                             "text": [
                                 "แล้วก็มองรอบตัวอย่างตลอดเวลาว่า"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_39.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_39",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 185.0,
-                            "end": 190.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_39",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 185.0,
-                            "end": 190.4,
                             "text": [
                                 "เราต้องจับ Sense ให้ได้ว่ามันมีการเปลี่ยนแปลงอะไรเกิดขึ้น แม้แต่เล็กน้อยก็ตาม แล้วเราต้องคาดการณ์"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_40.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_40",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 190.7,
-                            "end": 191.6,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_40",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 190.7,
-                            "end": 191.6,
                             "text": [
                                 "ว่า"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_41.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_41",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 191.8,
-                            "end": 194.4,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_41",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 191.8,
-                            "end": 194.4,
                             "text": [
                                 "ลักษณะของลูกค้าทั้งหมดจะไปทางด้านไหน"
                             ]
                         }
-                    },
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+            "audio": "/data/local-files/?d=dataset1/Example1_cut_42.wav"
+        },
+        "predictions": [
+            {
+                "model_version": "VAD-Whisper-Thai-v1",
+                "result": [
                     {
-                        "id": "v_Example1.mp3_42",
-                        "from_name": "label",
-                        "to_name": "audio",
-                        "type": "labels",
-                        "value": {
-                            "start": 194.6,
-                            "end": 196.8,
-                            "labels": [
-                                "Speech"
-                            ]
-                        }
-                    },
-                    {
-                        "id": "v_Example1.mp3_42",
                         "from_name": "transcription",
                         "to_name": "audio",
                         "type": "textarea",
                         "value": {
-                            "start": 194.6,
-                            "end": 196.8,
                             "text": [
                                 "แล้วเราก็คงต้องตอบสนองให้ได้"
                             ]
